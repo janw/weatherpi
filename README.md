@@ -3,6 +3,10 @@ Weather Pi
 
 Raspberry Pi powered WS 300 PC II
 
+###Work in progress
+The webfrontend and installationscript isn't public by now but will follow asap.
+
+
 
 Installation
 ========
@@ -42,14 +46,17 @@ Move www to /var/www
  
 Move ws500-0.1.2.tar.bz2 to /usr/local/src and unpack it 
 
-	mv /home/pi/ws500-0.1.2.tar.bz2 /usr/local/src/.
+	cd ~/weatherpi/ws500
+	mv ws500-0.1.2.tar.bz2 /usr/local/src/.
 	cd /usr/local/src/
 	tar xfvj ws500-0.1.2.tar.bz2 ws500-0.1.2
 	ln -s ws500-0.1.2 ws500
 	mkdir /var/log/Ws500
 	mkdir /etc/ws500
+	rm ws500-0.1.2.tar.bz2
 	cd ws500
 	mv ws500.pl ws500.pl.org
+	
 	
 Move ws500.pl from ws300 to /usr/local/src/ws500/
 
