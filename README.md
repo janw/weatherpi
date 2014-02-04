@@ -6,7 +6,9 @@ Raspberry Pi powered WS 300 PC II
 ###Work in progress
 The webfrontend and installationscript isn't public by now but will follow asap.
 
-
+Screenshots
+========
+Asap i will put some screenshots here in my blog http://nerd42.de/portal/weather-pi-raspberry-pi-powered-ws-300-pc-ii/
 
 Installation
 ========
