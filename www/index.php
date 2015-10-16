@@ -2,7 +2,7 @@
 	error_reporting(E_ALL & ~(E_STRICT|E_NOTICE));
 	ini_set('error_reporting', E_ALL);
 	ini_set('display_errors','On');
-	
+	require __DIR__ . '/vendor/autoload.php';
 	
 	require_once ($_SERVER['DOCUMENT_ROOT'].'/config.php');
 	require_once ($_SERVER['DOCUMENT_ROOT'].'/classes/class.query.php');
@@ -114,7 +114,6 @@
 					}
 
       			</style>
-				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
                 <script type="text/javascript" src="js/jqPlot/jquery.jqplot.min.js"></script>
                 <script type="text/javascript" src="js/jqPlot/plugins/jqplot.barRenderer.min.js"></script>
                 <script type="text/javascript" src="js/jqPlot/plugins/jqplot.highlighter.min.js"></script>
